@@ -2,4 +2,4 @@
 
 1.使用service接口，对项目中的各个独立组件进行服务化管理
 
-2.每个组件继承AbstractService抽象类，实现serviceInit(),serviceStart(),serviceStop()三个方法，然后使用统一的init().start(),stop()接口对组件的初始化、启动、停止进行管理。也可以直接实现serveice接口，实现里面所有的接口（AbstractService implements Service）
+2.每个组件继承AbstractService抽象类，实现serviceInit(),serviceStart(),serviceStop()三个方法，然后使用统一的init(),start(),stop()接口对组件的初始化、启动、停止进行管理。也可以直接实现serveice接口，实现里面所有的接口（AbstractService implements Service）
