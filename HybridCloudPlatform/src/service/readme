@@ -1,0 +1,15 @@
+（一）服务化管理模块介绍
+
+1.使用service接口，对项目中的各个独立组件进行服务化管理
+
+2.每个组件继承AbstractService抽象类，实现serviceInit(),serviceStart(),serviceStop()三个方法，然后使用统一的init(),start(),stop()接口对组件的初始化、启动、停止进行管理。也可以直接实现serveice接口，实现里面所有的接口（AbstractService implements Service）
+
+（二）使用方式
+参照模块测试service/test/Main.java
+
+（三）jar包依赖
+由于代码中使用了日志文件系统slf4j,需要添加如下依赖包
+logback-access-1.2.3.jar
+logback-classic-1.2.3.jar
+logback-core-1.2.3.jar
+slf4j-api-1.7.25.jar
