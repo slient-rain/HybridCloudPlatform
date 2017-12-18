@@ -1,6 +1,0 @@
- RPC模块
-（一）基本使用
-1.使用test包（模块测试）进行基本使用
-2.使用步骤
-（1）启动执行ServerMain,RPC server守护进程循环监听client的RPC请求
-（2）启动执行ClientMain,启动一个RPC client，提交一个getHelloWord请求，从rpc server端获取返回结果并输出到控制台
