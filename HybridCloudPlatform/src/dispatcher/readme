@@ -1,2 +1,5 @@
 (一)事件驱动模块介绍
 主要用于不同组件之间的通信解耦，组件A作为事件处理器（implements EventHandler）向调度器dispatcher（new AsyncDispatcher()）注册自己负责处理的事件event(extends AbstractEvent),之后组件B需要调用组件A处理事件类型event时通过调用dispatcher.getDispatcher().getEventHandler().handle()方法间接调用组件A的相应服务接口，从实现组件直接通信的解耦
+
+(二)使用方法
+参照dispatcher/test包写的模块测试
