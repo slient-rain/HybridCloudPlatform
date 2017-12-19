@@ -3,10 +3,3 @@
 
 (二)使用方法
 参照dispatcher/test包写的模块测试
-
-(三)jar包依赖
-由于代码中使用了日志文件系统slf4j,需要添加如下依赖包
-logback-access-1.2.3.jar
-logback-classic-1.2.3.jar
-logback-core-1.2.3.jar
-slf4j-api-1.7.25.jar
