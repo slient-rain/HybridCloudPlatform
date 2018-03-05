@@ -2,9 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="F:/项目/java API/logback/logback-1.2.3/logback-access-1.2.3.jar"/>
-	<classpathentry kind="lib" path="F:/项目/java API/logback/logback-1.2.3/logback-classic-1.2.3.jar"/>
-	<classpathentry kind="lib" path="F:/项目/java API/logback/logback-1.2.3/logback-core-1.2.3.jar"/>
-	<classpathentry kind="lib" path="F:/项目/java API/logback/slf4j-1.7.25/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="/Users/zhenglijiu/project/jar_package/slf4j-1.7.25/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="/Users/zhenglijiu/project/jar_package/logback-1.2.3/logback-access-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/zhenglijiu/project/jar_package/logback-1.2.3/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/zhenglijiu/project/jar_package/logback-1.2.3/logback-core-1.2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
